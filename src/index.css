@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+      scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-100;
+  }
+
+  .contain {
+    @apply px-10
+  }
+
+  .box {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
+}
